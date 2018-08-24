@@ -16,7 +16,7 @@ endif
 
 let g:tagbar_type_php = {
     \ 'ctagsbin'  : tagbar_phpctags_bin,
-    \ 'ctagsargs' : '--memory="' . tagbar_phpctags_memory_limit . '" -f -',
+    \ 'ctagsargs' : '--kinds=dficpmnt --memory="' . tagbar_phpctags_memory_limit . '" -f -',
     \ 'kinds'     : [
         \ 'd:Constants:0:0',
         \ 'v:Variables:0:0',
